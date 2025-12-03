@@ -70,7 +70,7 @@ Step 1: Install necessary dependencies
 Step 2: Install the project (Using Git or simply download from GitHub)
 
 For Git:
-- git clone https://github.com/PhamHuynhAnh16/Vietnamese-RVC.git
+- git clone https://github.com/terastudio-org/TeraStudio-RVC
 - cd Vietnamese-RVC
 
 Install via GitHub:
