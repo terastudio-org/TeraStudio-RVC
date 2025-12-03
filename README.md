@@ -1,6 +1,7 @@
 <div align="center">
 <img alt="LOGO" src="assets/ico.png" width="300" height="300" />
 
+
 # TeraStudio-RVC
 A simple, high-quality and high-performance voice conversion tool.
 
@@ -77,8 +78,8 @@ For Git:
 Install via GitHub:
 - Go to https://github.com/terastudio-org/TeraStudio-RVC
 - Click the green `<> Code` button and select `Download ZIP`
-- Extract `Vietnamese-RVC-main.zip`
-- Navigate to the Vietnamese-RVC-main folder, type `cmd` in the address bar and press Enter
+- Extract `TeraStudio-RVC-main.zip`
+- Navigate to the TeraStudio-RVC-main folder, type `cmd` in the address bar and press Enter
 
 Step 3: Install required libraries:
 
