@@ -9,7 +9,7 @@ sys.path.append(os.getcwd())
 
 from main.app.variables import translations
 
-CLIENT_ID = "1392816674159202396"
+CLIENT_ID = "1445776296658599942"
 
 def create_payload(opcode, payload):
     data = json.dumps(payload).encode("utf-8")
@@ -59,7 +59,7 @@ def send_discord_rpc(pipe):
                     "activity": {
                         "buttons": [{
                             "label": "Github", 
-                            "url": codecs.decode("uggcf://tvguho.pbz/CunzUhlauNau16/Ivrganzrfr-EIP", "rot13")
+                            "url": codecs.decode("uggcf://tvguho.pbz/grenfghqvb-bet/GrenFghqvb-EIP", "rot13")
                         }],
                         "details": translations["details"],
                         "timestamps": {
