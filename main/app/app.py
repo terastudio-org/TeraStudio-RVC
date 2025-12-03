@@ -442,7 +442,6 @@ with gr.Blocks(
     title="📱 TeraStudio RVC by terastudio", 
     js=js_code if client_mode else None, 
     theme=theme, 
-    )
 ) as app:
     gr.HTML("<h1 style='text-align: center;'>🎵TeraStudio RVC by terastudio🎵</h1>")
     gr.HTML(f"<h3 style='text-align: center;'>{translations['title']}</h3>")
