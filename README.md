@@ -4,7 +4,7 @@
 A simple, high-quality and high-performance voice conversion tool.
 
 [![TeraStudio-RVC](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/terastudio-org/TeraStudio-RVC)
-[![Open In Colab](https://img.shields.io/badge/Colab-F9AB00?style=for-the-badge&logo=googlecolab&color=525252)](https://colab.research.google.com/github/PhamHuynhAnh16/Vietnamese-RVC-ipynb/blob/main/Vietnamese-RVC.ipynb)
+[![Open In Colab](https://img.shields.io/badge/Colab-F9AB00?style=for-the-badge&logo=googlecolab&color=525252)](https://colab.research.google.com/github/BF667/TSRVC-ipynb/blob/main/terastudio-RVC.ipynb)
 
 </div>
 
