@@ -1,13 +1,12 @@
 <div align="center">
 <img alt="LOGO" src="assets/ico.png" width="300" height="300" />
 
-# Vietnamese RVC BY ANH
-Công cụ chuyển đổi giọng nói chất lượng và hiệu suất cao đơn giản.
+# TeraStudio-RVC
+A simple, high-quality and high-performance voice conversion tool.
 
-[![Vietnamese RVC](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/PhamHuynhAnh16/Vietnamese-RVC)
+[![Vietnamese RVC](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/terastudio-org/TeraStudio-RVC)
 [![Open In Colab](https://img.shields.io/badge/Colab-F9AB00?style=for-the-badge&logo=googlecolab&color=525252)](https://colab.research.google.com/github/PhamHuynhAnh16/Vietnamese-RVC-ipynb/blob/main/Vietnamese-RVC.ipynb)
-[![Licence](https://img.shields.io/badge/LICENSE-MIT-green?style=for-the-badge)](https://github.com/PhamHuynhAnh16/Vietnamese-RVC/blob/main/LICENSE)
-
+[
 </div>
 
 <div align="center">
@@ -17,76 +16,76 @@ Công cụ chuyển đổi giọng nói chất lượng và hiệu suất cao đ
 
 </div>
 
-## Mô tả
+## Description
 
-Dự án này là một công cụ chuyển đổi giọng nói đơn giản, dễ sử dụng. Với mục tiêu tạo ra các sản phẩm chuyển đổi giọng nói chất lượng cao và hiệu suất tối ưu, dự án cho phép người dùng thay đổi giọng nói một cách mượt mà, tự nhiên.
+This project is a simple, user-friendly voice conversion tool. Aiming to produce high-quality voice conversion products with optimal performance, the project allows users to change voices smoothly and naturally.
 
-## Các tính năng của dự án
+## Project Features
 
-- Tách nhạc (MDX-Net / Demucs / VR)
+- Music Source Separation (MDX-Net / Demucs / VR)
 
-- Chuyển đổi giọng nói (Chuyển đổi tệp / Chuyển đổi hàng loạt / Chuyển đổi với Whisper / Chuyển đổi văn bản)
+- Voice Conversion (Single File Conversion / Batch Conversion / Conversion with Whisper / Text Conversion)
 
-- Áp dụng hiệu ứng cho âm thanh
+- Apply Audio Effects
 
-- Tạo dữ liệu huấn luyện (Từ đường dẫn liên kết)
+- Generate Training Data (From URL)
 
-- Huấn luyện mô hình (v1 / v2, bộ mã hóa chất lượng cao, huấn luyện năng lượng)
+- Model Training (v1 / v2, high-quality encoder, power training)
 
-- Dung hợp mô hình
+- Model Fusion
 
-- Đọc thông tin mô hình
+- Read Model Information
 
-- Xuất mô hình sang ONNX
+- Export Model to ONNX
 
-- Tải xuống từ kho mô hình có sẳn
+- Download from Available Model Hub
 
-- Tìm kiếm mô hình từ web
+- Search Models from Web
 
-- Trích xuất cao độ
+- Pitch Extraction
 
-- Hỗ trợ suy luận chuyển đổi âm thanh bằng mô hình ONNX
+- Support ONNX Model Inference for Audio Conversion
 
-- Mô hình ONNX RVC cũng sẽ hỗ trợ chỉ mục để suy luận
+- ONNX RVC models will also support index inference
 
-- Chuyển đổi giọng nói thời gian thực
+- Real-time Voice Conversion
 
-- Tạo tham chiếu huấn luyện
+- Generate Training Reference
 
-**Phương thức trích xuất cao độ: `pm-ac, pm-cc, pm-shs, dio, mangio-crepe-tiny, mangio-crepe-small, mangio-crepe-medium, mangio-crepe-large, mangio-crepe-full, crepe-tiny, crepe-small, crepe-medium, crepe-large, crepe-full, fcpe, fcpe-legacy, fcpe-previous, rmvpe, rmvpe-clipping, rmvpe-medfilt, rmvpe-clipping-medfilt, harvest, yin, pyin, swipe, piptrack, penn, mangio-penn, djcm, djcm-clipping, djcm-medfilt, djcm-clipping-medfilt, swift, pesto`**
+**Pitch Extraction Methods: `pm-ac, pm-cc, pm-shs, dio, mangio-crepe-tiny, mangio-crepe-small, mangio-crepe-medium, mangio-crepe-large, mangio-crepe-full, crepe-tiny, crepe-small, crepe-medium, crepe-large, crepe-full, fcpe, fcpe-legacy, fcpe-previous, rmvpe, rmvpe-clipping, rmvpe-medfilt, rmvpe-clipping-medfilt, harvest, yin, pyin, swipe, piptrack, penn, mangio-penn, djcm, djcm-clipping, djcm-medfilt, djcm-clipping-medfilt, swift, pesto`**
 
-**Các mô hình trích xuất nhúng: `contentvec_base, hubert_base, vietnamese_hubert_base, japanese_hubert_base, korean_hubert_base, chinese_hubert_base, portuguese_hubert_base, spin-v1, spin-v2, whisper-tiny, whisper-tiny.en, whisper-base, whisper-base.en, whisper-small, whisper-small.en, whisper-medium, whisper-medium.en, whisper-large-v1, whisper-large-v2, whisper-large-v3, whisper-large-v3-turbo`**
+**Embedding Extraction Models: `contentvec_base, hubert_base, vietnamese_hubert_base, japanese_hubert_base, korean_hubert_base, chinese_hubert_base, portuguese_hubert_base, spin-v1, spin-v2, whisper-tiny, whisper-tiny.en, whisper-base, whisper-base.en, whisper-small, whisper-small.en, whisper-medium, whisper-medium.en, whisper-large-v1, whisper-large-v2, whisper-large-v3, whisper-large-v3-turbo`**
 
-- **Các mô hình trích xuất nhúng có sẳn các chế độ nhúng như: fairseq, onnx, transformers, spin, whisper.**
-- **Các mô hình trích xuất cao độ đều có phiên bản tăng tốc ONNX trừ các phương thức hoạt động bằng trình bao bọc.** 
-- **Các mô hình trích xuất cao độ đều có thể kết hợp với nhau theo tỉ lệ để tạo ra cảm giác mới mẻ, ví dụ: `hybrid[rmvpe+harvest]`.**
+- **Embedding extraction models have available modes such as: fairseq, onnx, transformers, spin, whisper.**
+- **All pitch extraction models have ONNX accelerated versions except for methods operating via wrapper.**
+- **Pitch extraction models can be combined with weights to create new sensations, for example: `hybrid[rmvpe+harvest]`.**
 
-## Hướng dẫn sử dụng
+## Usage Guide
 
-**Sẽ có nếu tôi thực sự rảnh...**
+**Will be added if I actually have free time...**
 
-## Cài đặt nâng cao
+## Advanced Installation
 
-Bước 1: Cài đặt các phần phụ trợ cần thiết
+Step 1: Install necessary dependencies
 
-- Cài đặt Python từ trang chủ: **[PYTHON](https://www.python.org/ftp/python/3.11.8/python-3.11.8-amd64.exe)** (Dự án đã được kiểm tra trên Python 3.10.x và 3.11.x)
-- Cài đặt FFmpeg từ nguồn và thêm vào PATH hệ thống: **[FFMPEG](https://github.com/BtbN/FFmpeg-Builds/releases)**
+- Install Python from the official site: **[PYTHON](https://www.python.org/ftp/python/3.11.8/python-3.11.8-amd64.exe)** (Project tested on Python 3.10.x and 3.11.x)
+- Install FFmpeg from source and add to system PATH: **[FFMPEG](https://github.com/BtbN/FFmpeg-Builds/releases)**
 
-Bước 2: Cài đặt dự án (Dùng Git hoặc đơn giản là tải trên github)
+Step 2: Install the project (Using Git or simply download from GitHub)
 
-Sử dụng đối với Git:
+For Git:
 - git clone https://github.com/PhamHuynhAnh16/Vietnamese-RVC.git
 - cd Vietnamese-RVC
 
-Cài đặt bằng github:
-- Vào https://github.com/PhamHuynhAnh16/Vietnamese-RVC
-- Nhấn vào `<> Code` màu xanh lá chọn `Download ZIP`
-- Giải nén `Vietnamese-RVC-main.zip`
-- Vào thư mục Vietnamese-RVC-main chọn vào thanh đường dẫn nhập `cmd` và nhấn Enter
+Install via GitHub:
+- Go to https://github.com/terastudio-org/TeraStudio-RVC
+- Click the green `<> Code` button and select `Download ZIP`
+- Extract `Vietnamese-RVC-main.zip`
+- Navigate to the Vietnamese-RVC-main folder, type `cmd` in the address bar and press Enter
 
-Bước 3: Cài đặt thư viện cần thiết:
+Step 3: Install required libraries:
 
-Nhập lệnh:
+Enter the command:
 ```
 python -m venv env
 env\\Scripts\\activate
@@ -95,10 +94,10 @@ python -m pip install uv
 uv pip install six packaging python-dateutil platformdirs pywin32 onnxconverter_common wget
 ```
 
-Cài đặt đối với các thiết bị khác nhau
+Installation for different devices
 
 <details>
-<summary>Đối với CPU</summary>
+<summary>For CPU</summary>
 
 ```
 uv pip install -r requirements.txt
@@ -107,9 +106,9 @@ uv pip install -r requirements.txt
 </details>
 
 <details>
-<summary>Đối với CUDA</summary>
+<summary>For CUDA</summary>
 
-Có thể thay cu118 thành bản cu128 mới hơn nếu GPU hỗ trợ:
+Can replace cu118 with newer cu128 if GPU supports:
 ```
 uv pip install numpy==1.26.4 numba==0.61.0
 uv pip install torch torchaudio torchvision --index-url https://download.pytorch.org/whl/cu118
@@ -119,7 +118,7 @@ uv pip install -r requirements.txt
 </details>
 
 <details>
-<summary>Đối với OPENCL (AMD)</summary>
+<summary>For OPENCL (AMD)</summary>
 
 ```
 uv pip install numpy==1.26.4 numba==0.61.0
@@ -129,17 +128,17 @@ uv pip install onnxruntime-directml
 uv pip install -r requirements.txt
 ```
 
-Lưu ý: 
-- Có vẻ như OPENCL đã không còn được hỗ trợ tiếp.
-- Chỉ nên cài đặt trên python 3.11 do không có bản biên dịch cho python 3.10 với torch 2.6.0.
-- Demucs có thể gây quá tải và tràn bộ nhớ đối với GPU (nếu cần sử dụng demucs hãy mở tệp config.json trong main\configs sửa đối số demucs_cpu_mode thành true).
-- DDP không hỗ trợ huấn luyện đa GPU đối với OPENCL.
-- Một số thuật toán khác phải chạy trên cpu nên có thể hiệu suất của GPU có thể không sử dụng hết.
+Note:
+- It seems OPENCL support has been discontinued.
+- Should only install on python 3.11 due to lack of builds for python 3.10 with torch 2.6.0.
+- Demucs may cause overload and memory overflow on GPU (if you need to use demucs, open the config.json file in main\configs and change the demucs_cpu_mode argument to true).
+- DDP does not support multi-GPU training for OPENCL.
+- Some other algorithms must run on CPU so GPU performance may not be fully utilized.
 
 </details>
 
 <details>
-<summary>Đối với DIRECTML (AMD)</summary>
+<summary>For DIRECTML (AMD)</summary>
 
 ```
 uv pip install numpy==1.26.4 numba==0.61.0
@@ -149,86 +148,86 @@ uv pip install onnxruntime-directml
 uv pip install -r requirements.txt
 ```
 
-Lưu ý: 
-- Directml đã ngừng phát triển một khoảng thời gian dài.
-- Directml không hỗ trợ quá tốt tác vụ đa luồng nên khi chạy trích xuất thường sẽ bị khóa ở 1 luồng.
-- Directml có hỗ trợ 1 phần fp16 nhưng không được khuyến khích sử dụng vì có thể chỉ nhận được hiệu năng tương đương fp32.
-- Directml không có hàm để dọn dẹp bộ nhớ, tôi đã tạo 1 hàm đơn giản để dọn dẹp bộ nhớ nhưng có thể sẽ không quá hiệu quả.
-- Directml được thiết kế để suy luận chứ không phải dùng để huấn luyện mặc dù có thể hoàn toàn chạy được huấn luyện nhưng sẽ không được khuyến khích.
+Note:
+- Directml has stopped development for a long time.
+- Directml does not support multi-threading tasks very well, so when running extraction it often gets locked to 1 thread.
+- Directml partially supports fp16 but its use is not recommended as performance may be equivalent to fp32.
+- Directml lacks a function to clean up memory; I've created a simple function for memory cleanup but it may not be very effective.
+- Directml is designed for inference, not for training, although it can run training tasks, it is not recommended.
 
 </details>
 
-## Sử dụng
+## Usage
 
-**Sử dụng với Google Colab**
-- Mở Google Colab: [Vietnamese-RVC](https://colab.research.google.com/github/PhamHuynhAnh16/Vietnamese-RVC-ipynb/blob/main/Vietnamese-RVC.ipynb)
-- Bước 1: Chạy ô Cài đặt và đợi nó hoàn tất.
-- Bước 2: Chạy ô Mở giao diện sử dụng (Khi này giao diện sẽ in ra 2 đường dẫn 1 là 0.0.0.0.7680 và 1 đường dẫn gradio có thể nhấp được, bạn chọn vào đường dẫn nhấp được và nó sẽ đưa bạn đến giao diện).
+**Using with Google Colab**
+- Open Google Colab: [Vietnamese-RVC](https://colab.research.google.com/github/PhamHuynhAnh16/Vietnamese-RVC-ipynb/blob/main/Vietnamese-RVC.ipynb)
+- Step 1: Run the Installation cell and wait for it to complete.
+- Step 2: Run the Open Usage Interface cell (At this point, the interface will print two URLs: one is 0.0.0.0.7680 and one is a clickable gradio link; click the clickable link and it will take you to the interface).
 
-**Chạy tệp run_app để mở giao diện sử dụng, chạy tệp tensorboard để mở biểu đồ kiểm tra huấn luyện. (Lưu ý: không tắt Command Prompt hoặc Terminal)**
+**Run the run_app file to open the usage interface, run the tensorboard file to open the training monitoring chart. (Note: do not close the Command Prompt or Terminal)**
 ```
 run_app.bat / tensorboard.bat
 ```
 
-**Khởi động giao diện sử dụng. (Thêm `--allow_all_disk` vào lệnh để cho phép gradio truy cập tệp ngoài)**
+**Launch the usage interface. (Add `--allow_all_disk` to the command to allow gradio to access files outside the project)**
 ```
 env\\Scripts\\python.exe main\\app\\app.py --open
 ```
 
-**Với trường hợp bạn sử dụng Tensorboard để kiểm tra huấn luyện**
+**For using Tensorboard to monitor training**
 ```
 env\\Scripts\\python.exe main/app/run_tensorboard.py
 ```
 
-**Sử dụng bằng cú pháp**
+**Using via command syntax**
 ```
 python main\\app\\parser.py --help
 ```
 
-## Cài đặt, sử dụng đơn giản
+## Simple Installation and Usage
 
-**Cài đặt phiên bản releases từ [Vietnamese_RVC](https://github.com/PhamHuynhAnh16/Vietnamese-RVC/releases)**
-- Chọn bản đúng với bạn và tải về máy.
-- Giải nén dự án.
-- Chạy tệp run_app.bat để mở giao diện hoạt động.
+**Install the releases version from [Vietnamese_RVC](https://github.com/PhamHuynhAnh16/Vietnamese-RVC/releases)**
+- Choose the correct version for you and download it.
+- Extract the project.
+- Run the run_app.bat file to open the operational interface.
 
-**Sử dụng tệp run_install.bat**
-- Tải mã nguồn về máy.
-- Giải nén dự án.
-- Chạy tệp run_install.bat để bắt đầu cài đặt.
-- Chạy tệp run_app.bat để mở giao diện hoạt động.
+**Using the run_install.bat file**
+- Download the source code.
+- Extract the project.
+- Run the run_install.bat file to start installation.
+- Run the run_app.bat file to open the operational interface.
 
-## LƯU Ý
+## NOTES
 
-- **Hiện tại các bộ mã hóa mới như MRF HIFIGAN vẫn chưa đầy đủ các bộ huấn luyện trước**
-- **Bộ mã hóa MRF HIFIGAN và REFINEGAN không hỗ trợ huấn luyện khi không không huấn luyện cao độ**
-- **Huấn luyện năng lương có thể cải thiện chất lượng mô hình nhưng chưa có mô hình huấn luyện trước dành cho tính năng này**
-- **Các mô hình trong kho lưu trữ Vietnamese-RVC được thu thập rải rác trên AI Hub, HuggingFace và các các kho lưu trữ khác. Có thể mang các giấy phép bản quyền khác nhau**
+- **Currently, new encoders like MRF HIFIGAN are still lacking complete pre-trained models.**
+- **MRF HIFIGAN and REFINEGAN encoders do not support training when pitch is not being trained.**
+- **Power training may improve model quality, but there are no pre-trained models specifically for this feature yet.**
+- **Models in the Vietnamese-RVC repository are collected from various sources across AI Hub, HuggingFace, and other repositories. They may carry different licenses and copyrights.**
 
-## Tuyên bố miễn trừ trách nhiệm
+## Disclaimer
 
-- **Dự án Vietnamese-RVC được phát triển với mục đích nghiên cứu, học tập và giải trí cá nhân. Tôi không khuyến khích cũng như không chịu trách nhiệm đối với bất kỳ hành vi lạm dụng công nghệ chuyển đổi giọng nói vì mục đích lừa đảo, giả mạo danh tính, hoặc vi phạm quyền riêng tư, bản quyền của bất kỳ cá nhân hay tổ chức nào.**
+- **The Vietnamese-RVC project is developed for research, learning, and personal entertainment purposes. I do not encourage nor bear responsibility for any misuse of voice conversion technology for fraudulent purposes, identity impersonation, or violation of the privacy or copyrights of any individual or organization.**
 
-- **Người dùng cần tự chịu trách nhiệm với hành vi sử dụng phần mềm này và cam kết tuân thủ pháp luật hiện hành tại quốc gia nơi họ sinh sống hoặc hoạt động.**
+- **Users must take full responsibility for their use of this software and commit to complying with the laws in effect in their country of residence or operation.**
 
-- **Việc sử dụng giọng nói của người nổi tiếng, người thật hoặc nhân vật công chúng phải có sự cho phép hoặc đảm bảo không vi phạm pháp luật, đạo đức và quyền lợi của các bên liên quan.**
+- **The use of voices of celebrities, real people, or public figures must have permission or ensure no violation of law, ethics, and the rights of involved parties.**
 
-- **Tác giả của dự án không chịu trách nhiệm pháp lý đối với bất kỳ hậu quả nào phát sinh từ việc sử dụng phần mềm này.**
+- **The project author bears no legal responsibility for any consequences arising from the use of this software.**
 
-## Điều khoản sử dụng
+## Terms of Use
 
-- Bạn phải đảm bảo rằng các nội dung âm thanh bạn tải lên và chuyển đổi qua dự án này không vi phạm quyền sở hữu trí tuệ của bên thứ ba.
+- You must ensure that the audio content you upload and convert through this project does not infringe on the intellectual property rights of any third party.
 
-- Không được phép sử dụng dự án này cho bất kỳ hoạt động nào bất hợp pháp, bao gồm nhưng không giới hạn ở việc sử dụng để lừa đảo, quấy rối, hay gây tổn hại đến người khác.
+- You are not permitted to use this project for any illegal activities, including but not limited to use for fraud, harassment, or causing harm to others.
 
-- Bạn chịu trách nhiệm hoàn toàn đối với bất kỳ thiệt hại nào phát sinh từ việc sử dụng sản phẩm không đúng cách.
+- You are solely responsible for any damages resulting from improper use of the product.
 
-- Tôi sẽ không chịu trách nhiệm với bất kỳ thiệt hại trực tiếp hoặc gián tiếp nào phát sinh từ việc sử dụng dự án này.
+- I will not be responsible for any direct or indirect damages arising from the use of this project.
 
-## Dự án này được xây dựng dựa trên các dự án như sau
+## This project is built upon the following works
 
-|                                                            Tác Phẩm                                                            |         Tác Giả         |  Giấy Phép  |
-|--------------------------------------------------------------------------------------------------------------------------------|-------------------------|-------------|
+|                                                            Work                                                                 |         Author          |  License   |
+|--------------------------------------------------------------------------------------------------------------------------------|-------------------------|------------|
 | **[Applio](https://github.com/IAHispano/Applio/tree/main)**                                                                    | IAHispano               | MIT License |
 | **[Python-audio-separator](https://github.com/nomadkaraoke/python-audio-separator/tree/main)**                                 | Nomad Karaoke           | MIT License |
 | **[Retrieval-based-Voice-Conversion-WebUI](https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI/tree/main)**  | RVC Project             | MIT License |
@@ -252,12 +251,9 @@ python main\\app\\parser.py --help
 | **[Voice Changer](https://github.com/deiteris/voice-changer)**                                                                 | Yury deiteris           | MIT License |
 | **[Pesto](https://github.com/SonyCSLParis/pesto)**                                                                             | Sony CSL Paris          | LGPL 3.0    |
 
-## Kho mô hình của công cụ tìm kiếm mô hình
+## Model Hub for the Model Search Tool
 
 - **[VOICE-MODELS.COM](https://voice-models.com/)**
 
-## Báo cáo lỗi
-- **Với trường hợp hệ thống báo cáo lỗi không hoạt động bạn có thể báo cáo lỗi cho tôi thông qua Discord `pham_huynh_anh` Hoặc [ISSUE](https://github.com/PhamHuynhAnh16/Vietnamese-RVC/issues)**
-
-## ☎️ Liên hệ tôi
-- Discord: **pham_huynh_anh**
+## Reporting Issues
+- **If the system error reporting is not working, you can report issues to us vua [ISSUE](https://github.com/terastudio-org/TeraStudio-RVC/issues)**
