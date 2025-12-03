@@ -180,18 +180,6 @@ env\\Scripts\\python.exe main/app/run_tensorboard.py
 python main\\app\\parser.py --help
 ```
 
-## Simple Installation and Usage
-
-**Install the releases version from [Vietnamese_RVC](https://github.com/PhamHuynhAnh16/Vietnamese-RVC/releases)**
-- Choose the correct version for you and download it.
-- Extract the project.
-- Run the run_app.bat file to open the operational interface.
-
-**Using the run_install.bat file**
-- Download the source code.
-- Extract the project.
-- Run the run_install.bat file to start installation.
-- Run the run_app.bat file to open the operational interface.
 
 ## NOTES
 
@@ -202,7 +190,7 @@ python main\\app\\parser.py --help
 
 ## Disclaimer
 
-- **The Vietnamese-RVC project is developed for research, learning, and personal entertainment purposes. I do not encourage nor bear responsibility for any misuse of voice conversion technology for fraudulent purposes, identity impersonation, or violation of the privacy or copyrights of any individual or organization.**
+- **The TeraStudio-RVC project is developed for research, learning, and personal entertainment purposes. I do not encourage nor bear responsibility for any misuse of voice conversion technology for fraudulent purposes, identity impersonation, or violation of the privacy or copyrights of any individual or organization.**
 
 - **Users must take full responsibility for their use of this software and commit to complying with the laws in effect in their country of residence or operation.**
 
