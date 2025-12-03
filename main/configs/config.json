@@ -1,5 +1,5 @@
 {
-    "language": "vi-VN",
+    "language": "en-US",
     "support_language": [
         "en-US",
         "vi-VN"
@@ -577,7 +577,7 @@
     "realtime_tab": true,
     "realtime_client_tab": true,
     "create_reference_tab": true,
-    "font": "https://fonts.googleapis.com/css2?family=Roboto&display=swap",
+    "font": "",
     "app_port": 7860,
     "tensorboard_port": 6870,
     "num_of_restart": 5,
