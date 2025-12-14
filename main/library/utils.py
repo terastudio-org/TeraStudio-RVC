@@ -21,8 +21,8 @@ for l in ["httpx", "httpcore"]:
     logging.getLogger(l).setLevel(logging.ERROR)
 
 def check_assets(f0_method, hubert, f0_onnx=False, embedders_mode="fairseq"):
-    predictors_url = codecs.decode("uggcf://uhttvatsnpr.pb/NauC/Ivrganzrfr-EIP-Cebwrpg/erfbyir/znva/cerqvpgbef/", "rot13")
-    embedders_url = codecs.decode("uggcf://uhttvatsnpr.pb/NauC/Ivrganzrfr-EIP-Cebwrpg/erfbyir/znva/rzorqqref/", "rot13")
+    predictors_url = codecs.decode("uggcf://uhttvatsnpr.pb/ArbCl/IbvprPbairefvba-Zbqryf/erfbyir/znva/cerqvpgbef/", "rot13")
+    embedders_url = codecs.decode("uggcf://uhttvatsnpr.pb/ArbCl/IbvprPbairefvba-Zbqryf/erfbyir/znva/rzorqqref/", "rot13")
     if embedders_mode == "spin": embedders_mode = "transformers"
 
     def download_predictor(predictor):
