@@ -1,10 +1,9 @@
 
-<img src="https://socialify.git.ci/terastudio-org/TeraStudio-RVC/image?font=Jost&language=1&name=1&owner=1&pattern=Charlie+Brown&stargazers=1&theme=Auto" alt="TeraStudio-RVC">
-
-
 <div align="center">
   
-# TeraStudio-RVC
+<img src="https://socialify.git.ci/terastudio-org/TeraStudio-RVC/image?font=Jost&language=1&name=1&owner=1&pattern=Charlie+Brown&stargazers=1&theme=Auto" alt="TeraStudio-RVC">
+
+  
 A simple, high-quality and high-performance voice conversion tool.
 
 [![TeraStudio-RVC](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/terastudio-org/TeraStudio-RVC)
