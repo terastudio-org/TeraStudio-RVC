@@ -159,7 +159,7 @@ Note:
 ## Usage
 
 **Using with Google Colab**
-- Open Google Colab: [Vietnamese-RVC](https://colab.research.google.com/github/PhamHuynhAnh16/Vietnamese-RVC-ipynb/blob/main/Vietnamese-RVC.ipynb)
+- Open Google Colab: [TeraStudio-RVC](https://colab.research.google.com/github/BF667/TSRVC-ipynb/blob/main/terastudio-RVC.ipynb)
 - Step 1: Run the Installation cell and wait for it to complete.
 - Step 2: Run the Open Usage Interface cell (At this point, the interface will print two URLs: one is 0.0.0.0.7680 and one is a clickable gradio link; click the clickable link and it will take you to the interface).
 
