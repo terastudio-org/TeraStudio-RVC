@@ -221,7 +221,7 @@ python main\\app\\parser.py --help
 | **[RVC-ONNX-INFER-BY-Anh](https://github.com/PhamHuynhAnh16/RVC_Onnx_Infer)**                                                  | Phạm Huỳnh Anh          | MIT License |
 | **[Torch-Onnx-Crepe-By-Anh](https://github.com/PhamHuynhAnh16/TORCH-ONNX-CREPE)**                                              | Phạm Huỳnh Anh          | MIT License |
 | **[Hubert-No-Fairseq](https://github.com/PhamHuynhAnh16/hubert-no-fairseq)**                                                   | Phạm Huỳnh Anh          | MIT License |
-| **[Local-atten(https://github.com/lucidrains/local-attention)**                                                           | Phil Wang               | MIT License |
+| **[Local-atten](https://github.com/lucidrains/local-attention)**                                                           | Phil Wang               | MIT License |
 | **[TorchFcpe](https://github.com/CNChTu/FCPE/tree/main)**                                                                      | CN_ChiTu                | MIT License |
 | **[FcpeONNX](https://github.com/deiteris/voice-changer/blob/master-custom/server/utils/fcpe_onnx.py)**                         | Yury deiteris           | MIT License |
 | **[ContentVec](https://github.com/auspicious3000/contentvec)**                                                                 | Kaizhi Qian             | MIT License |
